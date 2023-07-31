@@ -1,0 +1,93 @@
+.feeDefaulterTableBody td {
+  background-color: #ccc;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.table-container {
+    margin: 20px;
+    background-color: white;
+    margin-top: 2%;
+  }
+  
+  .admstdListTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admstdListThead th {
+    background-color: #e65656;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .admstdListTbody .admstdListTData {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .admstdListTbody .admstdListTRow:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .admstdListTbody .admstdListTRow:hover {
+    background-color: #e9e9e9;
+  }
+  .admstdtextField {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 20px;
+    width: 280px;
+    height: 52px;
+    border-radius: 13px;
+    border: none;
+    padding-left: 15px;
+    background: rgba(186, 186, 186, 0.63);
+    caret-color: #000;
+    user-select: none;
+}
+.admstdtextField:focus {
+    outline: none;
+}
+.admstdtextField::placeholder {
+    color: #666;
+}
+.searchInput {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+#searchButtonList{
+  background-color:#f15756;
+  color: white;
+  border: none;
+  margin-left: 40px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 90px;
+  font-size: 20px;
+}
+#searchButtonList:hover {
+  background-color: #333;
+  color: #f15756;
+  cursor: pointer;
+}
+ 
+.feeDefaulterTableBody td:first-child {
+    border-right: 1.9px solid black;
+}
+.feeDefaulterTableBody td:nth-child(2) {
+    border-right: 1.9px solid black;
+}
+.feeDefaulterTableBody td:nth-child(3) {
+    border-right: 1.9px solid black;
+}
+.feeDefaulterTableBody td:nth-child(4) {
+    border-right: 1.9px solid black;
+}
+

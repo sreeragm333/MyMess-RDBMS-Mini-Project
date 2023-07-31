@@ -1,0 +1,85 @@
+.feeDefaulterContainer {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgb(255, 245, 245);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.feeDefaulterHeading {
+    font-size: 38px;
+    color: #333;
+    margin-bottom: 60px;
+}
+.feeDefaulterTable {
+    border-radius: 8px;
+    border-collapse: collapse;
+}
+.feeDefaulterTable tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+.feeDefaulterTable tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}   
+.feeDefaulterTable tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}   
+.feeDefaulterTable tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+.feeDefaulterTableRow {
+    border-radius: 8px;
+}
+.feeDefaulterTableHeadData {
+    background-color: #F15756;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.feeDefaulterTableData {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.feeDefaulterTableHeadData:first-child {
+    border-right: 1.9px solid black;
+}
+.feeDefaulterTableHeadData:nth-child(2) {
+    border-right: 1.9px solid black;
+}
+.feeDefaulterTableHeadData:nth-child(3) {
+    border-right: 1.9px solid black;
+}
+.feeDefaulterTableHeadData:nth-child(2) {
+    width: 300px;
+}
+.feeDefaulterTableHeadData:nth-child(4) {
+    width: 250px;
+}
+.feeDefaulterTableHeadData:last-child {
+    border-left: 1.9px solid black;
+}
+.feeDefaulterTableData:first-child {
+    border-right: 1.9px solid black;
+}
+.feeDefaulterTableData:nth-child(2) {
+    border-right: 1.9px solid black;
+}
+.feeDefaulterTableData:nth-child(3) {
+    border-right: 1.9px solid black;
+}
+.feeDefaulterTableData:nth-child(2) {
+    border-right: 1.9px solid black;
+}
+.feeDefaulterTableData:last-child {
+    border-left: 1.9px solid black;
+}

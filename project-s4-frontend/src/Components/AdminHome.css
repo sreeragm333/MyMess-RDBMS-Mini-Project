@@ -1,0 +1,33 @@
+.admHomeContainer {
+    overflow: hidden;
+    background: rgb(255, 245, 245);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#adminHeading{
+    margin-top: 5%;
+    margin-left: 42%;
+    background-color: white;
+}
+#seeFeeDefaulters{
+margin-left: 2%;
+
+font-size: 27px;
+text-align: center;
+}
+.admhomepara {
+    font-size: 15px;
+}
+#clickDefaulters{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#clickStudents{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+    margin-top: 0;
+}

@@ -1,0 +1,38 @@
+.ep-arrow {
+  overflow: hidden;
+  will-change: transform;
+}
+
+.ep-arrow::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.ep-arrow.ep-shadow::after,
+.ep-popper-shadow {
+  box-shadow: 0 0 6px#becadb;
+}
+
+.ep-arrow[direction="top"]::after {
+  left: 4px;
+  top: 5px;
+}
+
+.ep-arrow[direction="bottom"]::after {
+  left: 4px;
+  top: -6px;
+}
+
+.ep-arrow[direction="left"]::after {
+  left: 5px;
+  top: 3px;
+}
+
+.ep-arrow[direction="right"]::after {
+  left: -6px;
+  top: 3px;
+}

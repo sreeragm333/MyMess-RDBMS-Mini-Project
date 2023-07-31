@@ -1,0 +1,63 @@
+.signinleft {
+    border-radius: 30px 0px 0px 30px;
+    background: linear-gradient(136deg, rgba(15, 15, 15, 0.29) 0%, rgba(31, 31, 31, 0.41) 100%);
+    backdrop-filter: blur(6px);
+    width: 360px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signinlogopart {
+    border-radius: 0px 21.586px 21.586px 0px;
+    background: linear-gradient(198deg, rgba(250, 62, 62, 0.8) 0.01%, #FC5757 100%);
+    width: 360px;
+    height: 500px;
+    display: flex;
+    padding: 4vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.signinalreadyForm {
+    margin: auto;
+    text-align: center;
+    width: 273px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signuptextField {
+    color: #666;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 20px;
+    width: 280px;
+    height: 52px;
+    border-radius: 13px;
+    border: none;
+    padding-left: 15px;
+    background: rgba(255, 255, 255, 0.63);
+    caret-color: #000;
+    user-select: none;
+    border-right: 16px solid transparent;
+}
+.signuptextField:focus {
+    outline: none;
+}
+.signuptextField::placeholder {
+    color: #666;
+}
+.signinalreadyForm input[type="date"]:before {
+    color: #666;
+    content: attr(placeholder) !important;
+    margin-right: 62px;
+}
+.signinalreadyForm input[type="date"]:focus:before {
+    content: '' !important;
+}

@@ -1,0 +1,1 @@
+"use strict";module.exports=function({from:t=0,to:o=1,duration:s=400}={}){return t<0&&(t=0),o>1&&(o=1),function({popper:e,arrow:i}){e.style.opacity=t,i&&(i.style.opacity=t),setTimeout((()=>{e.style.transition=s+"ms",e.style.opacity=o,i&&(i.style.transition=s+"ms",i.style.opacity=o)}),18)}};

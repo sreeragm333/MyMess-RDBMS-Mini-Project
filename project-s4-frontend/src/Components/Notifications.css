@@ -1,0 +1,33 @@
+.notifProfileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 245, 245);
+    height: 100vh;
+}
+.notifProfileHead {
+    font-size: 38px;
+    color: #333;
+}
+.notifProfileDetails {
+    display: flex;
+    color: #333;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25.058px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.notifPinkContainer {
+    background-color: #FFDBDB;
+    width: 1100px;
+    border-radius: 16px;
+}
+.notifPinkContent {
+    background-color: #DAB7B7;
+    padding: 8px;
+    margin: 20px 20px 20px 0px;
+    border-radius: 9px;
+    color: #AC5F5F;
+}

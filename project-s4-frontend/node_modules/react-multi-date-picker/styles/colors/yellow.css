@@ -1,0 +1,80 @@
+:root {
+  --rmdp-primary-yellow: #f7da37;
+  --rmdp-secondary-yellow: #c0b025;
+  --rmdp-shadow-yellow: #dfdd61;
+  --rmdp-today-yellow: #afac02;
+  --rmdp-hover-yellow: #ffeb3b;
+  --rmdp-deselect-yellow: #cca701;
+}
+
+.yellow .rmdp-wrapper {
+  border: 1px solid var(--rmdp-secondary-yellow);
+  box-shadow: 0 0 5px var(--rmdp-secondary-yellow);
+}
+
+.yellow .rmdp-panel-body li {
+  background-color: var(--rmdp-primary-yellow);
+  box-shadow: 0 0 2px var(--rmdp-secondary-yellow);
+}
+
+.yellow .rmdp-week-day {
+  color: var(--rmdp-primary-yellow);
+}
+
+.yellow .rmdp-day.rmdp-deactive {
+  color: var(--rmdp-secondary-yellow);
+}
+
+.yellow .rmdp-range {
+  background-color: var(--rmdp-primary-yellow);
+  box-shadow: 0 0 3px var(--rmdp-shadow-yellow);
+}
+
+.yellow .rmdp-arrow {
+  border: solid var(--rmdp-primary-yellow);
+  border-width: 0 2px 2px 0;
+}
+
+.yellow .rmdp-arrow-container:hover {
+  background-color: var(--rmdp-primary-yellow);
+  box-shadow: 0 0 3px var(--rmdp-secondary-yellow);
+}
+
+.yellow .rmdp-panel-body::-webkit-scrollbar-thumb {
+  background: var(--rmdp-primary-yellow) !important;
+}
+
+.yellow .rmdp-day.rmdp-today span {
+  background-color: var(--rmdp-today-yellow);
+}
+
+.yellow .rmdp-rtl .rmdp-panel {
+  border-left: unset;
+  border-right: 1px solid var(--rmdp-secondary-yellow);
+}
+
+.yellow .rmdp-day.rmdp-selected span:not(.highlight) {
+  background-color: var(--rmdp-primary-yellow);
+  box-shadow: 0 0 3px var(--rmdp-shadow-yellow);
+}
+
+.yellow .rmdp-day:not(.rmdp-day-hidden) span:hover {
+  background-color: var(--rmdp-hover-yellow) !important;
+}
+
+.yellow .b-deselect {
+  color: var(--rmdp-deselect-yellow);
+  background-color: white;
+}
+
+.yellow .rmdp-action-button {
+  color: var(--rmdp-primary-yellow);
+}
+
+.yellow .rmdp-button:not(.rmdp-action-button) {
+  background-color: var(--rmdp-primary-yellow);
+}
+
+.yellow .rmdp-button:not(.rmdp-action-button):hover {
+  background-color: var(--rmdp-deselect-yellow);
+}

@@ -1,0 +1,186 @@
+.admmenuContainer {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgb(255, 245, 245);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.admmenuLabel {
+    margin-right: 20px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.choosetimelabel {
+    margin-right: 74px;
+}
+.updatemenulabel {
+    margin-right: 15px;
+}
+.admtextField {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 20px;
+    width: 280px;
+    height: 52px;
+    border-radius: 13px;
+    border: none;
+    padding-left: 15px;
+    background: rgba(171, 171, 171, 0.63);
+    caret-color: #000;
+    user-select: none;
+    margin-right: 20px;
+    border-right: 16px solid transparent;
+}
+.admtextField:focus {
+    outline: none;
+}
+.admtextField::placeholder {
+    color: #666;
+}
+#editMenu{
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.selectId{
+    background-color: white;
+    margin-bottom: 1%;
+    margin-right: 20px;
+}
+#updateInput{
+    margin-right: 20px;
+}
+.updatedmenudiv {
+    margin-top: 15px;
+}
+.selectIdButton{
+    background-color:#f15756;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.selectIdButton:hover {
+    background-color: #333;
+    color: #f15756;
+    cursor: pointer;
+}
+.adminmenuContainer {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgb(255, 245, 245);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.adminmenuHeading {
+    font-size: 38px;
+    color: #333;
+}
+.adminmenuTable {
+    border-radius: 8px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.adminmenuTable tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+.adminmenuTable tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}   
+.adminmenuTable tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}   
+.adminmenuTable tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+.adminmenuTableRow {
+    border-radius: 8px;
+}
+.adminmenuTableHeadData {
+    background-color: #F15756;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.adminmenuTableData {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.adminmenuTableHeadData:first-child {
+    border-right: 1.9px solid black;
+}
+.adminmenuTableHeadData:nth-child(2) {
+    border-right: 1.9px solid black;
+}
+.adminmenuTableHeadData:nth-child(3) {
+    border-right: 1.9px solid black;
+}
+.adminmenuTableHeadData:nth-child(2) {
+    width: 300px;
+}
+.adminmenuTableHeadData:nth-child(3) {
+    width: 300px;
+}
+.adminmenuTableHeadData:nth-child(4) {
+    width: 300px;
+}
+.adminmenuTableHeadData:last-child {
+    border-left: 1.9px solid black;
+}
+.adminmenuTableData:first-child {
+    border-right: 1.9px solid black;
+}
+.adminmenuTableData:nth-child(2) {
+    border-right: 1.9px solid black;
+}
+.adminmenuTableData:nth-child(3) {
+    border-right: 1.9px solid black;
+}
+.adminmenuTableData:nth-child(2) {
+    border-right: 1.9px solid black;
+}
+.adminmenuTableData:last-child {
+    border-left: 1.9px solid black;
+}
+.adminmenuTableBody td:first-child {
+    border-right: 1.9px solid black;
+}
+.adminmenuTableBody td:nth-child(2) {
+    border-right: 1.9px solid black;
+}
+.adminmenuTableBody td:nth-child(3) {
+    border-right: 1.9px solid black;
+}
+.adminmenuTableBody td {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+  }

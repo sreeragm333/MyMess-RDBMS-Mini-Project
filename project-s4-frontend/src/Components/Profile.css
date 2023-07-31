@@ -1,0 +1,48 @@
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background: rgb(255, 245, 245);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.profileHead {
+    font-size: 38px;
+    color: #333;
+}
+.profileDetails {
+    display: flex;
+    color: #333;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25.058px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.greyContainer {
+    background-color: #E6E6E6;
+    width: 511px;
+    border-radius: 16px 0px 0px 16px;
+}
+.greyContent {
+    background-color: #ccc;
+    padding: 8px;
+    margin: 20px 0px 20px 20px;
+    border-radius: 9px 0px 0px 9px;
+}
+.pinkContainer {
+    background-color: #FFDBDB;
+    width: 511px;
+    border-radius: 0px 16px 16px 0px;
+}
+.pinkContent {
+    background-color: #DAB7B7;
+    padding: 8px;
+    margin: 20px 20px 20px 0px;
+    border-radius: 0px 9px 9px 0px;
+    color: #AC5F5F;
+}

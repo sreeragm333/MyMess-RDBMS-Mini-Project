@@ -1,0 +1,68 @@
+.feedbackContainer {
+    overflow: hidden;
+    background: rgb(255, 245, 245);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.feedbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #FFCACA;
+    margin-top: 10%;
+    border-radius: 20px;
+    
+}
+.feedbox button{
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+  
+    border: none;
+    border-radius: 9px;
+    background: rgba(250, 62, 62, 0.8);
+    width: 125px;
+    height: 40px;
+    padding-bottom: 1px;
+    transition: 0.1s ease;
+    margin-bottom: 40px;
+}
+.feedbox button:hover {
+    background-color: #333;
+    color: #E65656;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+.feed{
+    font-size: 19px;
+    font-weight: 500;
+    width: 495px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: white;
+
+    caret-color: black;
+    user-select: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.feed:focus {
+    outline: none;
+}
+#feedbackId{
+    margin-top: 40px;
+    color: #333;
+    font-size: 40px;
+    font-weight: 800;
+}

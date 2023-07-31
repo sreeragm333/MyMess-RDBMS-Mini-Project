@@ -1,0 +1,195 @@
+.homeTotalContainer {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: rgb(255, 245, 245);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Inter', sans-serif;
+  margin-top: -10px;
+}
+.welcomeText {
+  color: #444;
+  font-family: 'Inter';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.notifSlider {
+  /* position: fixed; */
+  width: 100vw;
+  overflow: hidden;
+  background-color: #FBB1AF;
+  padding-left: 100%;
+  height: 45px;
+  box-sizing: content-box;
+}
+.notifLabel {
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  border-radius: 6px;
+  background: #F15756;
+  width: 180px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notifText {
+  color: #000;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  white-space: nowrap;
+  /* text-decoration: underline; */
+}
+.notifBreaker {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 15px;
+  box-shadow:  inset 0 0 0 8px #F15756;
+}
+/* .notifIcon img {
+  width: 27px;
+  height: 27px;
+} */
+.ticker {
+display: inline-flex;
+align-items: center;
+height: 45px;
+line-height: 4rem;
+white-space: nowrap;
+padding-right: 100%;
+cursor: pointer;
+box-sizing: content-box;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+animation-timing-function: linear;
+-webkit-animation-name: ticker;
+animation-name: ticker;
+-webkit-animation-duration: 30s;
+animation-duration: 30s;
+}
+.ticker:hover {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;  
+  animation-play-state: paused;
+}
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes ticker {
+0% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  visibility: visible;
+}
+100% {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1160px;
+  margin: auto;
+  margin-top: 40px;
+}
+  
+.card {
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  border-radius: 20px;
+  background: #F15756; /*#ed5a52*/
+  width: 260px;
+  height: 180px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.card:hover {
+  background: #444;
+  transform: scale(1.05);
+  transition: 0.2s ease;
+  color: #F15756;
+}
+.card img {
+  height: 90px;
+  margin-top: 10px;
+}
+#messCut img {
+    padding-left: 25px;
+}
+
+.card button {
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  width: 260px;
+  background-color:#F15756 ;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+  
+.card:hover button {
+  background-color: #444;
+  transition: 0.2s ease;
+  color: #F15756;
+
+}
+.card button:hover {
+  background-color: #444;
+  transition: 0.2s ease;
+  color: #F15756;
+}

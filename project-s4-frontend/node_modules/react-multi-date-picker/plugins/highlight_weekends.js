@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(e){var r={gregorian:[0,6],persian:[6],arabic:[0,6],indian:[0]};return{type:"mapDays",fn:function(){return function(a){var n=a.date,i=n.calendar,t=n.weekDay;if((Array.isArray(e)?e:r[i.name]).includes(t.index))return{className:"highlight highlight-red"}}}}};

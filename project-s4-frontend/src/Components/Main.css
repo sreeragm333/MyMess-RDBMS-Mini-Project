@@ -1,0 +1,410 @@
+* {
+  font-family: 'Inter', sans-serif;
+  caret-color: transparent;
+  user-select: none;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+.totalContainer{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+  background: url(../assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoPart{
+  border-radius: 0px 21.586px 21.586px 0px;
+  background: linear-gradient(198deg, rgba(250, 62, 62, 0.8) 0.01%, #FC5757 100%);
+  width: 360px;
+  height: 460px;
+  display: flex;
+  padding: 4vw;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.signinPart{
+  border-radius: 30px 0px 0px 30px;
+  background: linear-gradient(136deg, rgba(15, 15, 15, 0.29) 0%, rgba(31, 31, 31, 0.41) 100%);
+  backdrop-filter: blur(6px);
+  width: 360px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signinText {
+  color: #FFF;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 650;
+  line-height: normal;
+  margin: auto;
+  margin-top: 65px;
+  /* padding: 30px 20px 0px 20px; */
+}
+
+.radioTile > label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  height: 51px;
+}
+.labelText {
+  color: #000;
+  font-size: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin-left: 10px;
+}
+.radioButtonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+}
+.radioButton{
+  content: "";
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  margin-left: 5px;
+  transition: 0.1s ease;
+  box-shadow:  inset 0 0 0 2.5px #FF00003D;
+}
+.radioButton2 {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 5px;
+  transition: 0.1s ease;
+  box-shadow:  inset 0 0 0 7px #FF00003D;
+  position: absolute;
+}
+.radioTile {
+  background: rgba(255, 255, 255, 0.63);
+  width: 280px;
+  height: 52px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.1s ease;
+}
+label:hover {
+  cursor: pointer;
+}
+input[type="radio"] {
+  display: none;
+}
+.radioTile:hover {
+  background: rgba(230, 86, 86, 0.8);
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+.radioTile:hover .labelText {
+  color: white;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+.radioTile:hover .radioButton {
+  box-shadow:  inset 0 0 0 2.5px rgba(255, 255, 255, 0.4);
+}
+.radioTile:hover .radioButton2 {
+  box-shadow:  inset 0 0 0 8vw rgba(255, 255, 255, 0.4);
+}
+input[type="radio"]:checked + .radioButton {
+  box-shadow:  inset 0 0 0 2.5px rgba(255, 0, 0, 0.785);
+}
+input[type="radio"]:checked + .radioButton + .radioButton2 {
+  box-shadow:  inset 0 0 0 8vw rgba(255, 0, 0, 0.785);
+}
+.radioTile:hover > label > .labelText + .radioButtonDiv > input[type="radio"]:checked + .radioButton {
+  box-shadow:  inset 0 0 0 2.5px rgb(255, 255, 255);
+}
+.radioTile:hover > label > .labelText + .radioButtonDiv > input[type="radio"]:checked + .radioButton + .radioButton2 {
+  box-shadow:  inset 0 0 0 8vw rgb(255, 255, 255);
+}
+.signinSubmitDiv {
+  width: 95px;
+  height: 38px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.submitButton {
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+
+  border: none;
+  border-radius: 9px;
+  background: rgba(250, 62, 62, 0.8);
+  width: 95px;
+  height: 38px;
+  padding-bottom: 1px;
+  transition: 0.1s ease;
+}
+.submitButton:hover {
+  background-color: white;
+  color: #E65656;
+  transition: 0.1s ease;
+  cursor: pointer;
+  /* font-weight: 500; */
+}
+.rightContainer {
+  border-radius: 0px 21.586px 21.586px 0px;
+  background: linear-gradient(198deg, rgba(250, 62, 62, 0.8) 0.01%, #FC5757 100%);
+  width: 360px;
+  height: 460px;
+  display: flex;
+  padding: 4vw;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+.MyMessImg {
+  width: 180px; 
+  height: 180px;
+  margin: auto;
+  /* position: absolute;
+  top: 70px;
+  left: 90px; */
+}
+.MyMessTextDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.MyMessText {
+  color: #FFF;
+  font-size: 72px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.MyMessTagline {
+	color: rgb(255, 255, 255);
+  font-weight: 550;
+  font-size: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  line-height: normal;
+  text-align: right;
+  width: 200px;
+  padding-right: 4px;
+  margin-top: -10px;
+	-webkit-text-stroke: #ffe5e5;
+	-webkit-text-stroke-width: 0.5px;
+	text-shadow: 2px 2px 10px #e65656;
+	transition: all 0.5s ease-in-out;
+  animation: flicker 0.5s ease-in-out infinite alternate;   
+}
+
+@keyframes flicker {
+	0% {
+		opacity: 0.5;
+		text-shadow: 2px 2px 10px #ff7e7e;
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 2px 2px 20px #ff7e7e;
+	}
+}
+
+@media (max-width: 720px) {
+  html, body {
+      /* min-height: -webkit-fill-available; */
+      overflow-x: hidden;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: url(../assets/mobile-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+  }
+  .signinPart {
+      order: 2;
+      border-radius: 0px 0px 30px 30px;  
+      width: 80vw;
+      height: max(50vh, 80vw);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .logoPart {
+      order: 1;
+      border-radius: 30px 30px 0px 0px;
+      width: 80vw;
+      height: max(15vh, 35vw);
+      display: flex;
+      padding: 4vw;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
+      overflow: hidden;
+  }
+  .MyMessTextDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+  }
+  .MyMessImg {
+      width: 21vw;
+      height: 21vw;
+      padding-left: 4px;
+  }
+  .MyMessText {
+      font-size: 13vw;
+      padding: 0px 4px 0px 4px;
+  }
+  .MyMessTagline {
+      font-size: 2.5vw;
+      width: 100%;
+      padding: 0px 1.95vw 0px 0px;
+      margin: 0px;
+  }
+  .signinText {
+      color: #FFF;
+      text-align: center;
+      font-size: 6.75vw;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 650;
+      line-height: normal;
+      margin: auto;
+  }
+  .signinSubmitDiv {
+      width: 25vw;
+      height: 6vh;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+  }
+  .submitButton {
+      color: #FFF;
+      font-family: 'Inter';
+      font-style: normal;
+      line-height: normal;
+      text-align: center;
+      font-size: 5vw;
+      font-weight: 600;
+      text-align: center;
+  
+      border: none;
+      background: rgba(250, 62, 62, 0.8);
+      transition: 0.1s;
+      border-radius: 9px;
+      width: 25vw;
+      height: 6vh;
+      align-items: center;
+  }
+  .radioTile {
+      background: rgba(255, 255, 255, 0.63);
+      width: 71vw;
+      height: 14vw;
+      border-radius: 3.5vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: 0.1s ease-in-out;
+  }
+  label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 71vw;
+      height: 14vw;
+  }
+  .labelText {
+      color: #000;
+      font-size: 4.75vw;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+      margin-left: 3vw;
+  }
+  .radioButtonDiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 2vw;
+  }
+  .radioButton{
+      content: "";
+      width: 6.5vw;
+      height: 6.5vw;
+      border-radius: 50%;
+      margin-left: 5px;
+      transition: .1s ease;
+      box-shadow:  inset 0 0 0 0.6vw #FF00003D;
+  }
+  .radioButton2 {
+      content: "";
+      width: 3.5vw;
+      height: 3.5vw;
+      border-radius: 50%;
+      margin-left: 5px;
+      transition: .1s ease;
+      box-shadow:  inset 0 0 0 5vw #FF00003D;
+      position: absolute;
+  
+  }
+
+}

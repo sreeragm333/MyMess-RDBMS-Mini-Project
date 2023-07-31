@@ -1,0 +1,343 @@
+.rmdp-calendar-container-mobile {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.rmdp-calendar-container-mobile .rmdp-mobile.rmdp-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rmdp-mobile.rmdp-wrapper {
+  box-shadow: unset;
+  border: 1px solid #cfd8e2;
+}
+
+.rmdp-mobile .rmdp-header,
+.rmdp-mobile .rmdp-panel-header {
+  height: 30px;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.rmdp-mobile .rmdp-arrow-container {
+  height: 26px;
+  width: 26px;
+}
+
+.rmdp-mobile .rmdp-arrow {
+  padding: 3px;
+  height: 3px;
+  width: 3px;
+  margin-top: 6px;
+}
+
+.rmdp-mobile .rmdp-up i {
+  margin-top: 10px;
+}
+
+.rmdp-mobile .rmdp-left i {
+  margin-left: 4px;
+  margin-top: 7px;
+}
+
+.rmdp-mobile .rmdp-right i {
+  margin-left: -2px;
+  margin-top: 7px;
+}
+
+.rmdp-rtl.rmdp-mobile .rmdp-right i {
+  margin-left: 5px;
+}
+
+.rmdp-rtl.rmdp-mobile .rmdp-left i {
+  margin-left: -1px;
+}
+
+.rmdp-mobile .rmdp-day,
+.rmdp-mobile .rmdp-week-day {
+  height: 38px;
+  width: 38px;
+}
+
+.rmdp-mobile .rmdp-day span {
+  font-size: 15px;
+}
+
+.rmdp-mobile .dvdr {
+  margin: 0 10px;
+}
+
+.rmdp-mobile .ok {
+  position: absolute;
+  bottom: 0;
+}
+
+.rmdp-mobile .rmdp-week-day {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.rmdp-mobile .only.rmdp-month-picker,
+.rmdp-mobile .only.rmdp-year-picker {
+  margin: 15px 0;
+}
+
+.rmdp-mobile .rmdp-action-button {
+  margin: 0 3px;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.rmdp-mobile .rmdp-action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.rmdp-mobile .rmdp-rtl .rmdp-action-button {
+  float: left;
+  margin-right: unset;
+  margin-left: 10px;
+}
+
+.rmdp-mobile .rmdp-action-button:focus {
+  outline: none;
+}
+
+.rmdp-mobile .rmdp-header {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rmdp-mobile .rmdp-panel-header {
+  margin-top: 20px;
+}
+
+.rmdp-mobile .rmdp-day-picker {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.rmdp-mobile .rmdp-action-button {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 420px) {
+  .rmdp-mobile .rmdp-day,
+  .rmdp-mobile .rmdp-week-day {
+    height: 32px;
+    width: 32px;
+  }
+
+  .rmdp-mobile .only.rmdp-month-picker,
+  .rmdp-mobile .only.rmdp-year-picker {
+    width: 250px;
+  }
+
+  .rmdp-mobile .rmdp-header,
+  .rmdp-mobile .rmdp-panel-header {
+    height: 20px;
+  }
+
+  .rmdp-mobile .rmdp-day span {
+    font-size: 14px;
+  }
+
+  .rmdp-mobile .rmdp-day-picker {
+    padding: 10px 5px;
+  }
+
+  .rmdp-mobile.rmdp-single .rmdp-day-picker {
+    padding: 10px;
+  }
+
+  .rmdp-mobile .rmdp-arrow-container {
+    height: 20px;
+    width: 20px;
+    margin: 0 12px;
+  }
+
+  .rmdp-mobile .rmdp-arrow {
+    padding: 2px;
+    height: 3px;
+    width: 3px;
+    margin-top: 6px;
+  }
+
+  .rmdp-mobile .rmdp-action-button {
+    font-size: 13px;
+    padding: 5px 5px;
+  }
+
+  .rmdp-mobile .rmdp-action-button:first-child {
+    padding-right: 10px;
+  }
+
+  .rmdp-mobile .rmdp-panel-header {
+    padding-bottom: 20px;
+  }
+
+  .rmdp-mobile .rmdp-left i,
+  .rmdp-mobile .rmdp-right i {
+    margin-top: 6px;
+  }
+
+  .rmdp-mobile .rmdp-up i {
+    margin-top: 8px;
+  }
+
+  .rmdp-mobile .rmdp-down i {
+    margin-top: 4px;
+  }
+
+  .rmdp-mobile .rmdp-header {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .rmdp-mobile .rmdp-panel-header {
+    margin-top: 15px;
+  }
+
+  .rmdp-mobile .rmdp-header,
+  .rmdp-mobile .rmdp-panel-header {
+    font-size: 14px;
+  }
+
+  .rmdp-mobile .rmdp-day-picker {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .rmdp-mobile .rmdp-action-button {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-height: 450px) {
+  .rmdp-mobile .rmdp-header,
+  .rmdp-mobile .rmdp-panel-header {
+    height: 9px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .rmdp-mobile .rmdp-day,
+  .rmdp-mobile .rmdp-week-day {
+    height: 22px;
+    width: 22px;
+  }
+
+  .rmdp-mobile .rmdp-time-picker {
+    padding: 0;
+    min-width: 130px !important;
+  }
+
+  .rmdp-mobile .rmdp-time-picker div input {
+    font-size: 12px;
+    padding: 2px;
+  }
+
+  .rmdp-mobile .rmdp-day span {
+    font-size: 12px;
+  }
+
+  .rmdp-mobile .rmdp-month-picker .rmdp-day span,
+  .rmdp-mobile .rmdp-week-day {
+    font-size: 10px;
+  }
+
+  .rmdp-mobile .rmdp-day-picker {
+    padding: 0 7px;
+  }
+
+  .rmdp-mobile .rmdp-panel-body {
+    padding: 0px;
+    margin: 5px 0px;
+  }
+
+  .rmdp-mobile .rmdp-panel-body li {
+    font-size: 11px;
+    margin: 5px;
+  }
+
+  .rmdp-mobile .rmdp-action-button {
+    font-size: 9px;
+    padding: 0 5px;
+    margin: 10px 5px;
+  }
+
+  .rmdp-mobile .rmdp-action-button:first-child {
+    margin-right: 10px;
+  }
+
+  .rmdp-mobile .rmdp-arrow-container {
+    margin: 0 3px;
+    height: 16px;
+    width: 16px;
+  }
+
+  .rmdp-mobile .rmdp-arrow {
+    padding: 2px;
+    height: 2px;
+    width: 2px;
+    margin-top: 3px;
+  }
+
+  .rmdp-mobile .only.rmdp-month-picker,
+  .rmdp-mobile .only.rmdp-year-picker {
+    height: 160px;
+  }
+
+  .rmdp-mobile .rmdp-time-picker div input,
+  .rmdp-mobile .dvdr {
+    margin: 0;
+  }
+
+  .rmdp-mobile .rmdp-week-day {
+    margin-top: 0;
+  }
+
+  .rmdp-mobile .rmdp-left i {
+    margin-top: 4px;
+    margin-left: 4px;
+  }
+
+  .rmdp-mobile .rmdp-right i {
+    margin-top: 4px;
+    margin-left: 0px;
+  }
+
+  .rmdp-mobile .rmdp-up i {
+    margin-top: 5px;
+  }
+
+  .rmdp-mobile .rmdp-header {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .rmdp-mobile .rmdp-panel-header {
+    margin-top: 13px;
+  }
+
+  .rmdp-mobile .rmdp-day-picker {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .rmdp-mobile .rmdp-action-button {
+    margin-bottom: 10px;
+  }
+}

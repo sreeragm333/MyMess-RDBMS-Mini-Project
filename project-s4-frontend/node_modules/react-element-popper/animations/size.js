@@ -1,0 +1,1 @@
+"use strict";module.exports=function({from:t=0,duration:e=400}={}){return t>100&&(t=100),t<0&&(t=0),function({popper:i,data:p}){let o=i.children?.[0]?.children?.[0],[r]=p.position.split("-"),n=["left","right"].includes(r)?"width":"height";o&&(o.style[n]=p.popper[n]*t/100+"px",setTimeout((()=>{o.style.transition=e+"ms",o.style[n]=p.popper[n]+"px"}),18))}};

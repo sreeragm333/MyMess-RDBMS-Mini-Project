@@ -1,0 +1,42 @@
+.rmdp-prime.rmdp-wrapper {
+  border: 1px solid #8798ad;
+}
+
+.rmdp-prime .rmdp-calendar {
+  padding: 0 !important;
+}
+
+.rmdp-prime .rmdp-header,
+.rmdp-prime .rmdp-panel-header {
+  border-bottom: 1px solid #8798ad;
+  margin-top: 0 !important;
+}
+
+.rmdp-prime .rmdp-time-picker {
+  border-top: 1px solid #8798ad;
+  margin-bottom: 0 !important;
+}
+
+.rmdp-prime .rmdp-panel-body li {
+  border-radius: 5px;
+}
+
+.rmdp-prime .rmdp-border-top {
+  border-top: 1px solid #8798ad !important;
+}
+
+.rmdp-prime .rmdp-border-bottom {
+  border-bottom: 1px solid #8798ad !important;
+}
+
+.rmdp-prime .rmdp-border-left {
+  border-left: 1px solid #8798ad !important;
+}
+
+.rmdp-prime .rmdp-border-right {
+  border-right: 1px solid #8798ad !important;
+}
+
+.rmdp-prime.ep-arrow::after {
+  box-shadow: 0 0 6px #404050 !important;
+}
